@@ -1,1 +1,5 @@
 # textedit-u1537804
+
+## R1
+
+This PyQt6-based text editor provides essential document editing functionality with a clean, intuitive interface. The application supports standard file operations including creating new documents, opening existing files (with support for .txt, .py, and other text formats), and saving with UTF-8 encoding. Users can perform common editing tasks through both menu actions and keyboard shortcuts, including undo/redo, cut/copy/paste, and select all. The editor features a monospace Courier New font with adjustable zoom levels, a status bar displaying real-time cursor position (line and column) and selection information, and intelligent unsaved changes detection that prompts users before potentially losing work. The modular architecture separates concerns across a Document model for content management, a FileHandler for I/O operations with comprehensive error handling, and a custom EditorWidget built on QPlainTextEdit for the editing interface.
